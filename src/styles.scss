@@ -1,0 +1,35 @@
+@import './app/dist/scss/variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-weight: 400;
+
+    background-image: "../../../../../assets/img/bg-desktop-dark.jpg" no-repeat ;
+
+}
+
+body{
+  background: aliceblue;
+}
+
+ul{
+  list-style: none;
+}
+
+textarea:focus, input:focus, button{
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+/* Classes */
+.container{
+  width: 350px;
+  margin: 50px auto;
+}
